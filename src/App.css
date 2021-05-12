@@ -1,0 +1,44 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+body {
+  font-family: "Oswald", sans-serif !important;
+  font-family: "Permanent Marker", cursive;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+  overflow-x: hidden;
+}
+
+.text-title {
+  font-family: "Permanent Marker", cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+.text-blue {
+  color: var(--mainBlue);
+}
+.text-bright {
+  color: var(--lightBlue);
+}
+.btn-black {
+  background-color: transparent;
+  font-size: 0.8rem !important;
+  text-transform: capitalize;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+  outline: none !important;
+}
+.btn-black:hover {
+  background-color: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+.delete-icon {
+  color: var(--mainYellow);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
